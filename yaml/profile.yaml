@@ -1,0 +1,27 @@
+greeting: Hi, I'm Jianping (Kelvin) Li
+
+photo: image/me.jpg
+
+introductions:
+  - > 
+    I am a PhD candidate in computer science at the <a href="https://www.ucdavis.edu/">University of California, Davis</a>, 
+    where I work with <a href="http://web.cs.ucdavis.edu/~ma">Kwan-Liu Ma</a> 
+    and the Visualization and Interface Design and Innovation (<a href="https://vidi.cs.ucdavis.edu/">VIDI</a>) Lab. 
+
+  - >
+    My research interests include visualization, data science, and high-performance computing.
+    The mission of my research is to help more people understand complex information and discover 
+    new knowledge by using data analytics and visualization technologies.
+  
+featuredProjects:
+  - name: 'P4: GPU Accelerated InfoVis'
+    img: image/p4.jpg
+    description: I created P4, a GPU accelerated data visualization library that is 20X faster than the current state of the arts. P4 provides both performance and easy-to-use for creating interactive visualization.
+    papers:
+      - name: TVCG 2018
+        link: https://jpkli.github.io/p4
+      - name: InfoVis 2019
+        link: https://github.com/jpkli/pv
+  
+    
+      

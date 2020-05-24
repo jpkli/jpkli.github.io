@@ -1,0 +1,43 @@
+  title: 'PIX'
+  description: Parallel and Declarative Toolkits for Interactive Data Visualization 
+  items:
+
+  - name: 'P4 - Portable Parallel Processing Pipelines'
+    img: image/pix-p4.jpg
+    paper: papers/p4-tvcg.pdf
+    website: http://jpkli.github.io/p4
+    code: http://github.com/jpkli/p4
+    demo: http://jpkli.github.io/demos/p4
+
+  - name: 'P5 - Progressive Parallel Visualization'
+    img: image/pix-p5.jpg
+    paper: papers/p5-infovis.pdf
+    code: http://github.com/jpkli/pv
+    demo: https://jpkli.github.io/pv/demos/
+    slides: slides/P5-VIS-2019.pdf
+
+  - name: 'P6 - Interactive Visual Analytics Process'
+    img: image/pix-p6.jpg
+    code: http://github.com/jpkli/p6
+    demo: http://stream.cs.ucdavis.edu:8888/#clustering
+
+  - name: 'Picos - Hierarchical Circular Visualization'
+    img: image/pix-picos.jpg
+    paper: papers/dfly-vis-cluster.pdf
+    demo: https://havex.github.io/codes-netvis/
+    code: https://github.com/HAVEX/codes-netvis
+    slides: slides/Dfly-Vis-Cluster2017.pdf
+
+  - name: 'PeerPower - Distributed Computing for Vis'
+    img: image/HeterVis.jpg
+    paper: papers/heter-vis.pdf
+    slides: slides/SA15vhpc.pdf
+    featured: false
+    link: https://doi.org/10.1145/2818517.2818534
+    doi: 10.1145/2818517.2818534
+    type: conference
+
+  - name: 'P3 - Portable Declarative Visualization'
+    img: image/pix-p3.jpg
+    code: http://github.com/jpkli/p3
+

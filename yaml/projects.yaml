@@ -1,0 +1,138 @@
+- name: COVID-19 Vis Dashboard
+  img: 'image/worldvis.png'
+  featured: 4
+  description: 'Tracking daily changes of COVID-19 cases in an interactive visualization dashboard running on Google Cloud.'
+  apps:
+    - name: World
+      url: 'https://worldinvis.web.app/'
+    - name: USA
+      url: 'https://worldinvis.web.app/usa'
+
+- name: 'Big Data Visualization Tools'
+  featured: 1
+  img: image/pix.jpg
+  papers:
+    - id: p5-infovis
+      name: InfoVis'19
+    - id: p4-tvcg
+      name: TVCG'18
+  description: Exploiting GPU computing and declarative grammars for visualizing large datasets on the web.
+  languages:
+    - JavaScript
+    - OpenGL
+
+- name: Collaborative Analytics
+  featured: 2
+  img: image/ChartConstellation.jpg
+  paper: papers/constellation-eurovis.pdf
+  video: http://www.youtube.com
+  description: Designing systems for facilitating collaborative data analysis and exploration.
+  papers:
+  - id: constellation
+    name: EuroVis'18
+  - id: cova-eurovis
+    name: EuroVis'20
+
+- name: Visual Analytics for HPC
+  featured: 3
+  img: image/hpc.jpg
+  paper: papers/dfly-vis-cluster.pdf
+  demo: https://havex.github.io/codes-netvis/
+  code: https://github.com/HAVEX/codes-netvis
+  slides: slides/Dfly-Vis-Cluster2017.pdf
+  
+  description: Analyzing HPC application performance and behaviors using visualization and machine learning. 
+  papers:
+    - id: picos-cluster
+      name: Cluster'17
+    - id: visual-informatics-2018
+      name: VISINF'18
+    - id: vds-2019
+      name: VDS'19
+    - id: pacificvis-2020
+      name: PacificVis'20
+
+
+
+- name: Smart Text Skim and Vis
+  featured: false
+  img: 'image/skimwise.jpg'
+  description: 'Leveraged text mining, NLP, and visualization for studying researcher papers.'
+  apps:
+    - name: SkimWise
+      url: 'https://skimwise.web.app/'
+    - name: CitedVis
+      url: 'https://cited.app'
+
+- name: Data Visualization in VR
+  img: image/VRInfoVis.jpg
+  code: https://github.com/jpkli/vr-vis
+  demo: https://jpkli.github.io/vr-vis
+  description: To experiment VR for data visualization, I created a prototype for allowing users to interact with a dashboard consisting multiple views in virtual reality.
+  languages:
+    - JavaScript
+    - OpenGL
+  libraries:
+    - A-Frame
+
+- name: Heterogeneous Visualization
+  img: image/HeterVis.jpg
+  paper: papers/heter-vis.pdf
+  slides: slides/SA15vhpc.pdf
+  description: I developed a framework of hetergeneous computing and visualization that can leverages various client devices of the users for collaborative data analysis and visualization.
+  featured: false
+  languages:
+    - JavaScript
+    - OpenGL
+
+- name: PDES Visual Analytics
+  img: image/RossVis.jpg
+  paper: papers/PMBS2016.pdf
+  code: https://github.com/HAVEX/ross-vis
+  description: 'For exploring the performance behaviors of parallel discrete event simulations (PDES), I developed an interactive visualization system 
+  for analyzing various aspects of PDES data.'
+  languages:
+    - JavaScript
+    - Python
+    - OpenGL
+  libraries:
+    - Scikit-Learn
+    - TensorFlow 
+
+- name: EHR/EMR Vis
+  # img: image/EMR-Vis-CKD.jpg
+  img: image/EhrSystem.jpg
+  paper: slides/IEEEbibm.pdf
+  slides: slides/bibm2014.pdf
+  description: To support analysis of eletronic medical records, I developed an interactive visualization system for analyzing patient cohorts and the causal relationships between diseases and treatments.
+  languages:
+    - JavaScript
+  libraries:
+    - MongoDB
+    - D3 
+
+
+- name: Volume Rendering
+  img: image/VolVis.jpg
+  code: https://github.com/jpkli/volvis
+  description: For rendering time-varying, multivariate volume data, I developed an advanced scientific visualization system for interactive analysis of both the temporal and spatio domains. 
+  languages:
+    - C/C++
+    - Python
+    - OpenGL
+  libraries:
+    - Qt
+
+- name: MicroMouse Robot Design
+  img: image/MicroMouse.jpg
+  video: http://kelvli.blogspot.com/p/robot-design-micromouse.html#video
+  description: For my Bachelor degree in electrical engineering, I designed and built an autonomous robot vehicle that can find routes and travel though a complex maze.
+  languages:
+    - C/C++
+
+- name: CPU Design
+  img: image/CPUDesign.jpg
+  slides: slides/CPUDesign.jpg
+  description: For a class project, I designed and synthesized a 8-bit multi-cycle microprocessor supporting 11 instructions in Verilog. Used ModelSim for Verilog verification and functional simulation.
+  languages:
+    - Verilog

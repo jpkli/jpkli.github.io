@@ -1,0 +1,65 @@
+- date: May, 2020
+  for: EuroVis
+  location: Norrköping, Sweden
+  coordinate: [16.1924, 58.5877]
+  country: SWE
+
+- date: Oct. 2019
+  for: VIS
+  location: Vancouver, Canada
+  coordinate: [-123.1207, 49.2827]
+  country: CAN
+
+- date: Oct. 2018
+  for: Bosch BayVAST
+  location: Sunnyvale, California
+  coordinate: [-122.0363, 37.3688]
+  country: USA
+
+- date: Jul. 2018
+  for: Argonne National Lab
+  location: Chicago, Illinois
+  coordinate: [-87.6298, 41.8781]
+  country: USA
+
+- date: Sep. 2017
+  for: IEEE Cluster
+  location: Honolulu, Hawaii
+  coordinate: [-157.8583, 21.3069]
+  country: USA
+
+- date: Jul. 2017
+  for: Argonne National Lab
+  location: Chicago, Illinois
+  coordinate: [-87.6298, 41.8781]
+  country: USA
+
+- date: Jun. 2017
+  for: Alibaba 
+  location: Hangzhou, China
+  coordinate: [120.1551, 30.2741]
+  country: CHN
+
+- date: Nov. 2016
+  for: PMBS Workshop (SC)
+  location: Salt Lake City, Nevada
+  coordinate: [-111.8910, 40.7608]
+  country: USA
+
+- date: Nov. 2015
+  for: HPC Vis (SIGGRAPH Asia)
+  location: Kobe, Japan
+  coordinate: [135.1955, 34.6901]
+  country: JPN
+
+- date: Nov. 2014
+  for: VAHC Workshop in VIS
+  location: Paris, France
+  coordinate: [2.3522, 48.8566]
+  country: FRA
+
+- date: Oct. 2014
+  for: BIBM
+  location: Belfast, United Kingdom
+  coordinate: [-5.9301, 54.5973]
+  country: GBR
