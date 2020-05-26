@@ -132,7 +132,7 @@
 
 - name: CPU Design
   img: image/CPUDesign.jpg
-  slides: slides/CPUDesign.jpg
+  slides: slides/CPUDesign.pdf
   description: For a class project, I designed and synthesized a 8-bit multi-cycle microprocessor supporting 11 instructions in Verilog. Used ModelSim for Verilog verification and functional simulation.
   languages:
     - Verilog
