@@ -1,3 +1,5 @@
+name: Li, Jianping (Kelvin)
+
 greeting: Hi, I'm Jianping (Kelvin) Li
 
 photo: image/me.jpg
@@ -14,6 +16,40 @@ introductions:
     I also create tools that integrate machine learning and data visualizations to help people understand 
     complex information and discover new knowledge.
 
+education:
+  - Ph.D. in Computer science, 2014 - Present
+  - B.S. Electrical Engineering and Computer Engineering, 2009
+  - University of California, Davis
+
+works:
+  - position: Graduate Researcher
+    organization: VIDi Lab, University of California, Davis
+    date: September 2014 - Present
+    description: 
+      - Research and innovate at the interaction of visualization, data mining, and high-performance computing.
+      - Develop programming tools for interactive visualization of big data, published in TVCG 2018 and InfoVis 2019.
+
+  - position: Visiting Researcher
+    organization: Alibaba Inc.
+    date: June - July 2017
+    description:
+      - Designed methods and implemented systems for facilitating collaborative data analysis and visualization.
+      - Established long term collaboration for conducting visual analytics research, published at EuroVis 2018 and 2020.
+
+  - position: Software Engineer
+    organization: Violin Memory Inc.
+    date: April 2013 - June 2014
+    description:
+      - Developed management software and test tools for monitoring PCIe SSD products in data centers.
   
+  - position: Validation Engineer
+    organization: Supermicro Inc.
+    date: April 2010 - March 2013
+    description:
+      - Created test and automation tools for validating firmware and hardware on server motherboards and HPC systems.
   
-      
+services:
+  - Paper reviewer, IEEE VIS 2020
+  - Paper reviewer, EuroVis 2020
+  - Paper reviewer, Journal of Visualization, 2019 - 2020
+  - Paper reviewer, IEEE Big Data 2018
