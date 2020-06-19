@@ -147,7 +147,7 @@
   img: image/p4.jpg
   website: http://jpkli.github.io/p4
   code: http://github.com/jpkli/p4
-  demo:  http://jpkli.github.io/p4/play
+  demo: https://jpkli.github.io/p4/#/examples
   slides: slides/p4-BayVast.pdf
   keywords:
     - Visualization
