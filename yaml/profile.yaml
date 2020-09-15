@@ -28,6 +28,12 @@ works:
     description: 
       - Research and innovate at the interaction of visualization, data mining, and high-performance computing.
       - Develop programming tools for interactive visualization of big data, published in TVCG 2018 and InfoVis 2019.
+  
+  - position: Co-Founder
+    organization: Cited
+    date: June 2018 - December 2019
+    description: 
+      - Built tools that leverages NLP and visualizations to help researchers to explore and understand scientific papers.
 
   - position: Visiting Researcher
     organization: Alibaba Inc.

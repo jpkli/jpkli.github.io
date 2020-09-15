@@ -1,6 +1,83 @@
-- id: cova-eurovis
+- id: p6-vast
   featured: true
   selected: 3
+  title: 'P6: A Declarative Language for Integrating Machine Learning in Visual Analytics'
+  authors:
+    - Jianping Kelvin Li
+    - Kwan-Liu Ma
+  venue: 
+    name: 'Accepted to IEEE Transactions on Visualization and Computer Graphics (Proc: VAST)'
+  year: 2020
+  doi: preprint
+  PDF: https://arxiv.org/pdf/2009.01399.pdf
+  # talk: https://www.youtube.com/watch?v=FYHuxME8O0A
+  code: http://github.com/jpkli/p6
+  img: image/pix-p6.jpg
+  type: journal
+  keywords:
+    - Visualization
+    - Data Science
+    - Visual Analytics
+    - Machine Learning
+  abstract: 'We present P6, a declarative language for building high performance visual analytics systems through its support for specifying and integrating machine learning and interactive visualization methods. As data analysis methods based on machine learning and artificial intelligence continue to advance, a visual analytics solution can leverage these methods for better exploiting large and complex data. However, integrating machine learning methods with interactive visual analysis is challenging. Existing declarative programming libraries and toolkits for visualization lack support for coupling machine learning methods. By providing a declarative language for visual analytics, P6 can empower more developers to create visual analytics applications that combine machine learning and visualization methods for data analysis and problem solving. Through a variety of example applications, we demonstrate the capabilities of P6 and show the benefits of using declarative specifications to build visual analytics systems. We also identify and discuss the research opportunities and challenges for declarative visual analytics.'
+
+- id: p5-infovis
+  featured: true
+  selected: 2
+  title: 'P5: Portable Progressive Parallel Processing Pipelines for Interactive Data Analysis and Visualization'
+  authors:
+    - Jianping Kelvin Li
+    - Kwan-Liu Ma
+  venue: 
+    name: 'IEEE Transactions on Visualization and Computer Graphics (Proc: InfoVis)'
+    detail: 'vol. 26, no. 1, pp. 1151-1160, Jan. 2020.'
+  year: 2019
+  doi: 10.1109/TVCG.2019.2934537
+  # link: https://ieeexplore.ieee.org/document/8809730
+  PDF: papers/p5-infovis.pdf
+  preview: https://vimeo.com/360050527
+  video: https://youtu.be/diGiU2EdzIY
+  slides: slides/P5-VIS-2019.pdf
+  talk: https://vimeo.com/371538412
+  demo: https://jpkli.github.io/pv/demos/
+  code: http://github.com/jpkli/pv
+  img: image/pix-p5.jpg
+  type: journal
+  keywords:
+    - Visualization
+    - GPU computing
+  abstract: 'We present P5, a web-based visualization toolkit that combines declarative visualization grammar and GPU computing for progressive data analysis and visualization. To interactively analyze and explore big data, progressive analytics and visualization methods have recently emerged. Progressive visualizations of incrementally refining results have the advantages of allowing users to steer the analysis process and make early decisions. P5 leverages declarative grammar for specifying visualization designs and exploits GPU computing to accelerate progressive data processing and rendering. The declarative specifications can be modified during progressive processing to create different visualizations for analyzing the intermediate results. To enable user interactions for progressive data analysis, P5 utilizes the GPU to automatically aggregate and index data based on declarative interaction specifications to facilitate effective interactive visualization. We demonstrate the effectiveness and usefulness of P5 through a variety of example applications and several performance benchmark tests.'
+
+
+- id: p4-tvcg
+  featured: true
+  selected: 1
+  title: 'P4: Portable Parallel Processing Pipelines for Interactive Information Visualization'
+  authors:
+    - Jianping Kelvin Li
+    - Kwan-Liu Ma
+  venue: 
+    name: 'IEEE Transactions on Visualization and Computer Graphics'
+    detail: 'vol. 26, no. 3, pp. 1548-1561, 1 March 2020.'
+  year: 2018
+  type: journal
+  doi: 10.1109/TVCG.2018.2871139
+  link: https://ieeexplore.ieee.org/document/8468065
+  PDF: papers/p4-tvcg.pdf
+  img: image/p4.jpg
+  website: http://jpkli.github.io/p4
+  code: http://github.com/jpkli/p4
+  demo: https://jpkli.github.io/p4/#/examples
+  slides: slides/p4-BayVast.pdf
+  keywords:
+    - Visualization
+    - GPU computing
+  abstract: We present P4, an information visualization toolkit that combines declarative design specification and GPU computing for building high-performance interactive systems. Most of the existing information visualization toolkits do not harness the power of parallel processors in today's mainstream computers. P4 leverages GPU computing to accelerate both data processing and visualization rendering for interactive visualization applications. P4's programming interface offers a declarative visualization grammar for rapid specifications of data transformations, visual encodings, and interactions. By simplifying the development of GPU-accelerated visualization systems while supporting a high degree of flexibility and customization for design specification, P4 narrows the gap between expressiveness and scalability in information visualization toolkits. Through a range of examples and benchmark tests, we demonstrate that P4 provides high efficiency for creating interactive visualizations and offers drastic performance improvement over current state-of-the-art toolkits.
+
+
+- id: cova-eurovis
+  featured: true
+  selected: 5
   title: 'Resolving Conflicting Insights in Asynchronous Collaborative Visual Analysis'
   authors: 
     - Jianping Kelvin Li
@@ -73,33 +150,6 @@
   Through a multi-faceted case study on performance analysis of parallel discrete-event simulation, 
   we demonstrate the effectiveness of our framework for identifying bottlenecks and locating outliers.'
 
-- id: p5-infovis
-  featured: true
-  selected: 2
-  title: 'P5: Portable Progressive Parallel Processing Pipelines for Interactive Data Analysis and Visualization'
-  authors:
-    - Jianping Kelvin Li
-    - Kwan-Liu Ma
-  venue: 
-    name: 'IEEE Transactions on Visualization and Computer Graphics (Proc: InfoVis)'
-    detail: 'vol. 26, no. 1, pp. 1151-1160, Jan. 2020.'
-  year: 2019
-  doi: 10.1109/TVCG.2019.2934537
-  # link: https://ieeexplore.ieee.org/document/8809730
-  PDF: papers/p5-infovis.pdf
-  preview: https://vimeo.com/360050527
-  video: https://youtu.be/diGiU2EdzIY
-  slides: slides/P5-VIS-2019.pdf
-  talk: https://vimeo.com/371538412
-  demo: https://jpkli.github.io/pv/demos/
-  code: http://github.com/jpkli/pv
-  img: image/pix-p5.jpg
-  type: journal
-  keywords:
-    - Visualization
-    - GPU computing
-  abstract: 'We present P5, a web-based visualization toolkit that combines declarative visualization grammar and GPU computing for progressive data analysis and visualization. To interactively analyze and explore big data, progressive analytics and visualization methods have recently emerged. Progressive visualizations of incrementally refining results have the advantages of allowing users to steer the analysis process and make early decisions. P5 leverages declarative grammar for specifying visualization designs and exploits GPU computing to accelerate progressive data processing and rendering. The declarative specifications can be modified during progressive processing to create different visualizations for analyzing the intermediate results. To enable user interactions for progressive data analysis, P5 utilizes the GPU to automatically aggregate and index data based on declarative interaction specifications to facilitate effective interactive visualization. We demonstrate the effectiveness and usefulness of P5 through a variety of example applications and several performance benchmark tests.'
-
 - id: vds-2019
   title: A Visual Analytics Framework for Analyzing Parallel and Distributed Computing Applications
   authors:
@@ -129,30 +179,6 @@
     - Machine Learning
   abstract: 'To optimize the performance and efficiency of HPC applications, programmers and analysts often need to collect various performance metrics for each computer at different time points as well as the communication data between the computers. This results in a complex dataset that consists of multivariate time-series and communication network data, which makes debugging and performance tuning of HPC applications challenging. Automated analytical methods based on statistical analysis and unsupervised learning are often insufficient to support such tasks without the background knowledge from the application programmers. To better explore and analyze a wide spectrum of HPC datasets, effective visual data analytics techniques are needed. In this paper, we present a visual analytics framework for analyzing HPC datasets produced by parallel discrete-event simulations (PDES). Our framework leverages automated time-series analysis methods and effective visualizations to analyze both multivariate time-series and communication network data. Through several case studies for analyzing the performance of PDES, we show that our visual analytics techniques and system can be effective in reasoning multiple performance metrics, temporal behaviors of the simulation, and the communication patterns.'
 
-- id: p4-tvcg
-  featured: true
-  selected: 1
-  title: 'P4: Portable Parallel Processing Pipelines for Interactive Information Visualization'
-  authors:
-    - Jianping Kelvin Li
-    - Kwan-Liu Ma
-  venue: 
-    name: 'IEEE Transactions on Visualization and Computer Graphics'
-    detail: 'vol. 26, no. 3, pp. 1548-1561, 1 March 2020.'
-  year: 2018
-  type: journal
-  doi: 10.1109/TVCG.2018.2871139
-  link: https://ieeexplore.ieee.org/document/8468065
-  PDF: papers/p4-tvcg.pdf
-  img: image/p4.jpg
-  website: http://jpkli.github.io/p4
-  code: http://github.com/jpkli/p4
-  demo: https://jpkli.github.io/p4/#/examples
-  slides: slides/p4-BayVast.pdf
-  keywords:
-    - Visualization
-    - GPU computing
-  abstract: We present P4, an information visualization toolkit that combines declarative design specification and GPU computing for building high-performance interactive systems. Most of the existing information visualization toolkits do not harness the power of parallel processors in today's mainstream computers. P4 leverages GPU computing to accelerate both data processing and visualization rendering for interactive visualization applications. P4's programming interface offers a declarative visualization grammar for rapid specifications of data transformations, visual encodings, and interactions. By simplifying the development of GPU-accelerated visualization systems while supporting a high degree of flexibility and customization for design specification, P4 narrows the gap between expressiveness and scalability in information visualization toolkits. Through a range of examples and benchmark tests, we demonstrate that P4 provides high efficiency for creating interactive visualizations and offers drastic performance improvement over current state-of-the-art toolkits.
 
 - id: visual-informatics-2018
   featured: false
@@ -222,7 +248,7 @@
     name: 'Computer Graphics Forum (Proc: EuroVis)'
     detail: 'Vol. 37. No. 3. 2018'
   year: 2018
-  featured: true
+  featured: false
   type: journal
   doi: 10.1111/cgf.13402
   link: https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13402
