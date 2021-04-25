@@ -6,8 +6,9 @@ photo: image/me.jpg
 
 introductions:
   - > 
-    I am a PhD candidate in computer science at the <a href="https://www.ucdavis.edu/">University of California, Davis</a>, 
-    where I work with <a href="http://web.cs.ucdavis.edu/~ma">Kwan-Liu Ma</a> 
+    I build data visualization and AI applications at <a href="bayes.com">Bayes</a>.
+    I received my PhD in computer science from the <a href="https://www.ucdavis.edu/">University of California, Davis</a>, 
+    where I work with <a href="http://web.cs.ucdavis.edu/~ma">Prof. Kwan-Liu Ma</a> 
     and the Visualization and Interface Design and Innovation (<a href="https://vidi.cs.ucdavis.edu/">VIDI</a>) Lab. 
 
   - >
@@ -17,23 +18,29 @@ introductions:
     complex information and discover new knowledge.
 
 education:
-  - Ph.D. in Computer science, 2014 - Present
+  - Ph.D. in Computer science, 2014 - 2020
   - B.S. Electrical Engineering and Computer Engineering, 2009
   - University of California, Davis
 
 works:
+  - position: Research and Development Engineering
+    organization: Bayes Technologies
+    date: September 2020 - Present
+    description: 
+      - Develop and build a made-for-everyone software that recommends visualizations for understanding and exploring data. 
+
+  - position: Co-Founder
+    organization: Cited
+    date: June 2018 - March 2020
+    description: 
+      - Built tools that leverages NLP and visualizations to help researchers to explore and understand scientific papers.
+
   - position: Graduate Researcher
     organization: VIDi Lab, University of California, Davis
-    date: September 2014 - Present
+    date: September 2014 - July 2020
     description: 
       - Research and innovate at the interaction of visualization, data mining, and high-performance computing.
       - Develop programming tools for interactive visualization of big data, published in TVCG 2018 and InfoVis 2019.
-  
-  - position: Co-Founder
-    organization: Cited
-    date: June 2018 - December 2019
-    description: 
-      - Built tools that leverages NLP and visualizations to help researchers to explore and understand scientific papers.
 
   - position: Visiting Researcher
     organization: Alibaba Inc.
@@ -52,7 +59,7 @@ works:
     organization: Supermicro Inc.
     date: April 2010 - March 2013
     description:
-      - Created test and automation tools for validating firmware and hardware on server motherboards and HPC systems.
+      - Created test and benchmark tools for validating server motherboards and HPC systems.
   
 services:
   - Paper reviewer, IEEE VIS 2020
