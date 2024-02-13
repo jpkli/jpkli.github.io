@@ -1,18 +1,3 @@
-- name: 'Big Data Visualization Tools'
-  featured: 1
-  img: image/pix.jpg
-  papers:
-    - id: p4-tvcg
-      name: TVCG'18
-    - id: p5-infovis
-      name: InfoVis'19
-    - id: p6-vast
-      name: VAST'20
-  description: Exploiting GPU computing and declarative grammars for visualizing large datasets on the web.
-  languages:
-    - JavaScript
-    - OpenGL
-
 - name: COVID-19 Vis Dashboard
   img: 'image/worldvis.png'
   description: 'Tracking daily changes of COVID-19 cases in an interactive visualization dashboard running on Google Cloud.'
@@ -22,6 +7,20 @@
     - name: USA
       url: 'https://worldinvis.web.app/usa'
 
+- name: 'Big Data Visualization Tools'
+  featured: 1
+  img: image/pix.jpg
+  papers:
+    - id: p6-vast
+      name: Vast'20
+    - id: p5-infovis
+      name: InfoVis'19
+    - id: p4-tvcg
+      name: TVCG'18
+  description: Exploiting GPU computing and declarative grammars for visualizing large datasets on the web.
+  languages:
+    - JavaScript
+    - OpenGL
 
 - name: Collaborative Analytics
   featured: 2
